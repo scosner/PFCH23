@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a7329863433e27e4cb9de2b28571db82 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a7329863433e27e4cb9de2b28571db82" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a7329863433e27e4cb9de2b28571db82 = L.map(
+                "map_a7329863433e27e4cb9de2b28571db82",
+                {
+                    center: [34.8984, 27.0828],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dad1e1a2d22435f5f1d161be99772a8d = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+            var marker_6d124dfec854fba88d10cca393e20b63 = L.marker(
+                [29.9792, 31.1342],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_edfa44fad5cce49e10715f9dce2df7fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc4bb22c37978a26a63dad34aeddf1de = $(`<div id="html_fc4bb22c37978a26a63dad34aeddf1de" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/great-pyramid-of-giza>Great Pyramids of Giza</a></div>`)[0];
+                popup_edfa44fad5cce49e10715f9dce2df7fd.setContent(html_fc4bb22c37978a26a63dad34aeddf1de);
+            
+        
+
+        marker_6d124dfec854fba88d10cca393e20b63.bindPopup(popup_edfa44fad5cce49e10715f9dce2df7fd)
+        ;
+
+        
+    
+    
+            marker_6d124dfec854fba88d10cca393e20b63.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b14a2481a0399ebcfe0117ca008f71e = L.marker(
+                [32.5427, 44.4217],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_5d1a1709144eec5a142bc6095298b9ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4414478d15fc2698a5988c4168fcdea9 = $(`<div id="html_4414478d15fc2698a5988c4168fcdea9" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/hanging-gardens-of-babylon>Hanging Gardens of Babylon</a></div>`)[0];
+                popup_5d1a1709144eec5a142bc6095298b9ba.setContent(html_4414478d15fc2698a5988c4168fcdea9);
+            
+        
+
+        marker_0b14a2481a0399ebcfe0117ca008f71e.bindPopup(popup_5d1a1709144eec5a142bc6095298b9ba)
+        ;
+
+        
+    
+    
+            marker_0b14a2481a0399ebcfe0117ca008f71e.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83c6570c13bb71c7341a02bd31011304 = L.marker(
+                [37.9485, 27.3689],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_70e5fc1df5a47be805d211c08f8914e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eda06fe635ccaa2f78e22e24e148d50 = $(`<div id="html_9eda06fe635ccaa2f78e22e24e148d50" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/temple-of-artemis-at-ephesus>Temple of Artemis at Ephesus</a></div>`)[0];
+                popup_70e5fc1df5a47be805d211c08f8914e1.setContent(html_9eda06fe635ccaa2f78e22e24e148d50);
+            
+        
+
+        marker_83c6570c13bb71c7341a02bd31011304.bindPopup(popup_70e5fc1df5a47be805d211c08f8914e1)
+        ;
+
+        
+    
+    
+            marker_83c6570c13bb71c7341a02bd31011304.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b817e9039b42aa4c11a994c06a731dd = L.marker(
+                [37.6379, 21.6308],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_e65a1237fdcd6bb959edee9dbd6586bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_582a84da1d8bc2b0050acba9237ac340 = $(`<div id="html_582a84da1d8bc2b0050acba9237ac340" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/statue-of-zeus-at-olympia>Statue of Zeus at Olympia</a></div>`)[0];
+                popup_e65a1237fdcd6bb959edee9dbd6586bb.setContent(html_582a84da1d8bc2b0050acba9237ac340);
+            
+        
+
+        marker_6b817e9039b42aa4c11a994c06a731dd.bindPopup(popup_e65a1237fdcd6bb959edee9dbd6586bb)
+        ;
+
+        
+    
+    
+            marker_6b817e9039b42aa4c11a994c06a731dd.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caed01001fd3c07dc8bf004171cce436 = L.marker(
+                [37.038, 27.4246],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_4cf93698611e8aa9aa9683cd28d7d3b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a65dc4c6e7156bd41d22b78d51ffce9 = $(`<div id="html_8a65dc4c6e7156bd41d22b78d51ffce9" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/mausoleum-at-halicarnassus>Mausoleum at Halicarnassus</a></div>`)[0];
+                popup_4cf93698611e8aa9aa9683cd28d7d3b1.setContent(html_8a65dc4c6e7156bd41d22b78d51ffce9);
+            
+        
+
+        marker_caed01001fd3c07dc8bf004171cce436.bindPopup(popup_4cf93698611e8aa9aa9683cd28d7d3b1)
+        ;
+
+        
+    
+    
+            marker_caed01001fd3c07dc8bf004171cce436.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25f2fa0c9edba04ade079098a5adbf45 = L.marker(
+                [36.451, 28.227],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_2f5da982ec9053729a3411374d3cf588 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c109021f880f914f3e129820b75f141 = $(`<div id="html_3c109021f880f914f3e129820b75f141" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/colossus-of-rhodes>Colossus of Rhodes</a></div>`)[0];
+                popup_2f5da982ec9053729a3411374d3cf588.setContent(html_3c109021f880f914f3e129820b75f141);
+            
+        
+
+        marker_25f2fa0c9edba04ade079098a5adbf45.bindPopup(popup_2f5da982ec9053729a3411374d3cf588)
+        ;
+
+        
+    
+    
+            marker_25f2fa0c9edba04ade079098a5adbf45.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ca3f4ca6c782560df7dc84ca99288dc = L.marker(
+                [31.2156, 29.885],
+                {}
+            ).addTo(map_a7329863433e27e4cb9de2b28571db82);
+        
+    
+        var popup_83d91771815e5e3243623ec7085a553d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_668e3a47da6bfe8139ed7569a108bfc4 = $(`<div id="html_668e3a47da6bfe8139ed7569a108bfc4" style="width: 100.0%; height: 100.0%;"><a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/lighthouse-of-alexandria>Lighthouse of Alexandria</a></div>`)[0];
+                popup_83d91771815e5e3243623ec7085a553d.setContent(html_668e3a47da6bfe8139ed7569a108bfc4);
+            
+        
+
+        marker_6ca3f4ca6c782560df7dc84ca99288dc.bindPopup(popup_83d91771815e5e3243623ec7085a553d)
+        ;
+
+        
+    
+    
+            marker_6ca3f4ca6c782560df7dc84ca99288dc.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
