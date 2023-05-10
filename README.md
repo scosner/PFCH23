@@ -12,7 +12,7 @@ To run this script yourself, install the Folium library to the operating system 
 ### The Timeline
 I used Matplotlib library because it was interactive and showed the comparative spans of each wonder. I listed each wonder and the start and finish date. I added style formatting to ensure that the entire span would be covered and used MPLD3 to make it interactive in the browser. It is named wonderstimeline.py.
 
-To run this script yourself, install X. 
+To run this script yourself,  install Pandas, Matplotlib, and Mpld3 to the operating system running Python. 
 ### The Art
 This project uses the Metropolitan Museum of Art API. In the future, I hope to expand to the Brooklyn Museum and the NYPL Digital Collections. 
 My Python script aimed locate all art and artifacts from the desired time period. However, I found many objects included in the Met's API did not have values for the parameters set. For example, setting the Dynasty parameter as "4th Dynasty" did not yield any results, but the general search parameter for "4th Dynasty" did. 
@@ -21,6 +21,6 @@ For each wonder, I relied on general queries to narrow down the art to the same 
 
 After my parameters were set, I extracted a list of object IDs that matched my criteria. I used a loop to get data using the object IDs. This portion was difficult at first and involved trial and error to ensure the list properly generated. I then made an HTML table by looping through the objects and including the relevant information (image, URL, name, date). I decided to use an HTML string for this function, Lastly, the HTML string was written to an HTML file. 
 
-To run this script yourself, you should install X 
+To run this script yourself,  you should install requests to the operating system running Python. JSON should already be installed.
 ## Final Output
-The final output for this project is located at URL. 
+The final output for this project is located at https://sites.google.com/pratt.edu/artancientwonders/
