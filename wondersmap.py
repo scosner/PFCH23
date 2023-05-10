@@ -6,7 +6,7 @@ tooltip = "Click me!"
 
 #pyramid
 folium.Marker(
-    [29.9792, 31.1342], popup="<a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/great-pyramid-of-giza>Great Pyramids of Giza</a>", tooltip=tooltip, 
+    [29.9792, 31.1342], popup="<a href=https://sites.google.com/pratt.edu/artancientwonders/wonders/great-pyramid-of-giza>Great Pyramid of Giza</a>", tooltip=tooltip, 
 ).add_to(m)
 #gardens
 folium.Marker(
