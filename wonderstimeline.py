@@ -7,8 +7,8 @@ wonder = pd.DataFrame([['Great Pyramid of Giza', -2584, 2023],
                     ['Hanging Gardens of Babylon', -600, 100],
                     ['Temple of Artemis at Ephesus', -550, 100],
                     ['Statue of Zeus at Olympia', -466, 450],
-                    ['Mausoleum at Halicarnasus', -351,-226],
-                    ['Colossus of Rhodes', -292,654], 
+                    ['Mausoleum at Halicarnasus', -351,1494],
+                    ['Colossus of Rhodes', -292,-226], 
                     ['Lighthouse of Alexandra', -280, 1480]], 
                     columns=['EnglishName', 'Start', 'Finish']) 
 
